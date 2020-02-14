@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-ENV DOCKER_VERSION 18.03.5-ce
+ENV DOCKER_VERSION 18.06.3-ce
 
 RUN apk add --no-cache curl && \
     set -x && \
